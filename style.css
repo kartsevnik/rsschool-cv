@@ -44,6 +44,7 @@ body {
     height: 100%;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
+    background-color: rgb(10, 102, 207);
 }
 
 /* =======================BODY and COMMON==================================== */
@@ -53,8 +54,8 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    background-color: rgb(10, 102, 207);
+    padding: 50px 50px 25px 50px;
+
     max-width: 1920px;
 
 }
@@ -395,6 +396,43 @@ h3.title::after {
 
 
 .footer {
-    background-color: rgb(22, 148, 206);
+    color: #fff;
     margin: 0 auto;
+    max-width: 1440px;
+    padding-bottom: 25px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.rs-school {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    border: rgb(255, 255, 255) 1px solid;
+    /* margin-bottom: 50px; */
+    padding: 25px;
+}
+
+.rs-school__github {
+    align-self: center;
+}
+
+.rs-school__link {}
+
+.rs-school__data {}
+
+.rs-school__image {
+    width: 30%;
+}
+
+.rs-school__course {
+    align-self: center;
 }
